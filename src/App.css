@@ -1,0 +1,65 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(161, 158, 158);
+}
+.container {
+  width: 800px;
+}
+.form-control {
+  width: 600px;
+}
+
+.card{
+  width: 400px;
+  margin: 30px;
+}
+.btn{
+margin-left: 10px;
+}
+h2 {
+  text-align: center;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: cornsilk;}
+
+ul.topnav li a.active {background-color: midnightblue;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.result{
+  border: solid 2px maroon ;
+  width: 50%;
+  height: 50px;
+  position: relative;
+  left: 250px;
+}
+
+.button{
+  position: relative;
+  left: 369px;
+  border: solid 5px maroon;
+  width: 381px;
+}
+
+.button button{
+  width: 50%;
+}
